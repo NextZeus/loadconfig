@@ -1,0 +1,19 @@
+{
+  "name": "loadconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cofig",
+    "load"
+  ],
+  "author": "xiaodong.li",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "underscore": "^1.8.3"
+  }
+}

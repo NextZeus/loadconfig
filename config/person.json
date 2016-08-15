@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nickname": "令狐冲",
+    "age": 18,
+    "sex": 1
+  },
+  {
+    "id": 2,
+    "nickname": "任盈盈",
+    "age": 18,
+    "sex": 2
+  },
+  {
+    "id": 3,
+    "nickname": "郭靖",
+    "age": 18,
+    "sex": 1
+  },
+  {
+    "id": 4,
+    "nickname": "黄蓉",
+    "age": 19,
+    "sex": 1
+  }
+]
