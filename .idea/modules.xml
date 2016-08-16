@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/configLoad.iml" filepath="$PROJECT_DIR$/.idea/configLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/loadconfig.iml" filepath="$PROJECT_DIR$/.idea/loadconfig.iml" />
     </modules>
   </component>
 </project>
