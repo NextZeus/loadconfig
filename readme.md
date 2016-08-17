@@ -1,24 +1,26 @@
 # Wiki
 
 ### first step
-move your json config to current config folder
 
+```javascript
+
+var loadjsonconfig = require('loadjsonconfig');
+
+```
+require package
 
 ### second step
 
 ```javascript
 
-
-
-var loadjsonconfig = require('loadjsonconfig');
-
-var configKey = [{
+var configKey = {
     filename    :   ["key1", "key2" ,"key3",,,,]
     ,,,
-}];
+};
 
+var configDir = __dirname + '/config/';
 
-var configManager = new loadjsonconfig({configKey : configKey})
+var configManager = new loadjsonconfig({configKey : configKey, configDir :  configDir});
 
 
 ```
@@ -35,5 +37,6 @@ var objs = configManager.getObjArrayByKey('configName', 'keyName', keyValue);
 
 //get obj by two keys name and values
 var obj = configManager.getObjFromArrayByKey('configName','keyName1',keyValue1,'keyName2',keyValue2);
+
 
 ```
