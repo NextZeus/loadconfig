@@ -3,11 +3,8 @@
 ### first step
 
 ```javascript
-
 var loadjsonconfig = require('loadjsonconfig');
-
 ```
-require package
 
 ### second step
 
@@ -21,8 +18,6 @@ var configKey = {
 var configDir = __dirname + '/config/';
 
 var configManager = new loadjsonconfig({configKey : configKey, configDir :  configDir});
-
-
 ```
 
 ### Useage
@@ -37,6 +32,4 @@ var objs = configManager.getObjArrayByKey('configName', 'keyName', keyValue);
 
 //get obj by two keys name and values
 var obj = configManager.getObjFromArrayByKey('configName','keyName1',keyValue1,'keyName2',keyValue2);
-
-
 ```
