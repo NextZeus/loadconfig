@@ -1,5 +1,7 @@
 # Wiki
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NextZeus/loadconfig.svg)](https://greenkeeper.io/)
+
 ### first step
 
 ```javascript
